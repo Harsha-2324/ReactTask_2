@@ -9,7 +9,7 @@ function Footer() {
         </h6>
         <br />
         <p className="m-0 text-center text-white">
-          Copyright ©{" "}
+          Registered ®️{" "}
           <a
             href="#"
             style={{
