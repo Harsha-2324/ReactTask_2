@@ -55,14 +55,7 @@ function Card({ cardData, setCartValue }) {
           Special
         </div>
       )}
-      {cardData.isSoldout && (
-        <div
-          className="badge bg-danger text-white position-absolute"
-          style={{ top: "0.5rem", right: "0.5rem" }}
-        >
-          Soldout
-        </div>
-      )}
+      
       <div className="card-body p-4 text-center">
         <h5 className="card-title">{cardData.name}</h5>
         <p className="card-text">
