@@ -114,21 +114,21 @@ function CardGrid({ setCartValue }) {
     {
       name: "Green peas",
       rating: "⭐⭐⭐⭐⭐",
-      price: "₹250-₹280",
+      price: "₹250-₹300",
       img1: true,
     },
     {
       name: "Tomato",
       rating: "⭐⭐⭐⭐⭐",
       originalPrice: "₹130",
-      price: "₹60",
+      price: "₹70",
       isSpecial: true,
       img2: true,
     },
     {
-      name: "Best Red Meat",
+      name: "Meat",
       rating: "⭐⭐⭐⭐⭐",
-      price: "₹749",
+      price: "₹899",
       isSale: true,
       img3: true,
     },
@@ -136,25 +136,25 @@ function CardGrid({ setCartValue }) {
     {
       name: "Fish",
       rating: "⭐⭐⭐⭐⭐",
-      price: "₹349-₹560",
+      price: "₹349-₹599",
       isSale: true,
       img5: true,
     },
     {
       name: "Pomegranate",
       rating: "⭐⭐⭐⭐⭐",
-      price: "₹140-₹180",
+      price: "₹150-₹180",
       img6: true,
     },
     {
       name: "Cabbage",
       rating: "⭐⭐⭐⭐⭐",
       originalPrice: "₹45",
-      price: "₹18",
+      price: "₹20",
       isSoldout: true,
       img7: true,
     },
-    { name: "Fresh Grapes", rating: "⭐⭐⭐⭐⭐", price: "₹54", img8: true },
+    { name: "Grapes", rating: "⭐⭐⭐⭐⭐", price: "₹55", img8: true },
   ];
 
   return (
